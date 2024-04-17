@@ -4,6 +4,7 @@ class pet():
     def __init__(self,name,species):
         
         if species not in pet.allowed:
+            #self.name=name
             return print(f"You cant have {species} as a pet ***********")
         self.name=name
         self.species=species
@@ -23,3 +24,6 @@ print(dog.name, dog.species)
 
 dog.set_species("tiger") #shold print not allowed
 print(dog.species, dog.name)
+
+print(cat.species, cat.name)
+#print(ele.name)
