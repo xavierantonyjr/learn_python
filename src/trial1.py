@@ -16,6 +16,7 @@ class pet():
 cat=pet("chaki","cat")
 dog=pet("jack","dog")
 ele=pet("unni","elephent")
+fishhy=pet("anee","fish")
 
 
 dog.set_species("cat") # will set to new species
